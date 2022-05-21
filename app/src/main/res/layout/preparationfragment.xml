@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Preparationfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textprep"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:paddingTop="30dp"
+        android:text="Place the banana , strawberries , blueberries and
+ coconut milk with lots of ice in a blender. Blend until smooth. Add some ice cubes , straw and garnish
+ with strawberries and mint leaves. Ready to serve! Enjoy."
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>
